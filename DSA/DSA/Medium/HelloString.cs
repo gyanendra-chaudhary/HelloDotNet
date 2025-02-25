@@ -1,25 +1,32 @@
-namespace DSA.Medium;
-
-public class HelloString
+namespace DSA.Medium
 {
-    public int LengthOfLongestSubstring(string s)
+    public class HelloString
     {
-        int left = 0;
-        int result = 0;
-        Dictionary<int, int> charMap = new Dictionary<int, int>();
-        for (int right = 0; right < s.Length; right++)
+        public int LengthOfLongestSubstring(string s)
         {
-            if (charMap.ContainsKey(s[right]))
+            int left = 0;
+            int result = 0;
+            Dictionary<char, int> charMap = new Dictionary<char, int>();
+            for (int right = 0; right < s.Length; right++)
             {
-                charMap[s[right]]++;
+                if (charMap.ContainsKey(s[right]))
+                {
+                    left = Math.Max(charMap[s[right]] + 1, left);
+                }
+                charMap[s[right]] = right;
+                result = Math.Max(result, right - left + 1);
             }
-            else 
-            {
-                charMap.Add(s[right], 1);
-            }
-            result = Math.Max(result, (right - left));
-
+            return result;
         }
-        return result;
+        public string ZigZagConversion(string s, int numRows)
+        {
+            int row = numRows;
+            int col = (int)(Math.Ceiling((double)s.Length / (numRows * 2 - 2)));
+            int [,] chartbl = new int[row, col];
+            for(int i=0;i<s.Length;i++)
+            {
+                chartbl[]
+            }
+        }
     }
 }
