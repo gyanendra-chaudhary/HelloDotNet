@@ -23,10 +23,7 @@ namespace DSA.Medium
             int row = numRows;
             int col = (int)(Math.Ceiling((double)s.Length / (numRows * 2 - 2)));
             int [,] chartbl = new int[row, col];
-            for(int i=0;i<s.Length;i++)
-            {
-                chartbl[]
-            }
+            return "";
         }
     }
 }
