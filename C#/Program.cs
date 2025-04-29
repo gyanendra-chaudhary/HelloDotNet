@@ -1,14 +1,20 @@
-﻿#region Tupple & Types
-TuppleAndTypes tuppleAndTypes = new TuppleAndTypes();
-tuppleAndTypes.IntializeAndPrintSimpleTupple();
-tuppleAndTypes.HelloRecord();
-#endregion
+﻿// #region Tupple & Types
+// TuppleAndTypes tuppleAndTypes = new TuppleAndTypes();
+// tuppleAndTypes.IntializeAndPrintSimpleTupple();
+// tuppleAndTypes.HelloRecord();
+// #endregion
 
 
-# region Daily Challenges
-    StringWordReverse stringWordReverse =  new StringWordReverse();
+// # region Daily Challenges
+//     StringWordReverse stringWordReverse =  new StringWordReverse();
 
-    string result = stringWordReverse.ReverseTheStringWords("Hello World");
-    Console.WriteLine(result);
+//     string result = stringWordReverse.ReverseTheStringWords("Hello World");
+//     Console.WriteLine(result);
+    
 
-#endregion
+// #endregion
+
+
+ZigzagConversion zigzagConversion = new ZigzagConversion();
+var convertedData = zigzagConversion.Convert("PAYPALISHIRING",3);
+System.Console.WriteLine(convertedData);
