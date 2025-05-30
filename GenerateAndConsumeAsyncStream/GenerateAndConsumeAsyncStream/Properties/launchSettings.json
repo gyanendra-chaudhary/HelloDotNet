@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "GenerateAndConsumeAsyncStream": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "GitHubKey": "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"
+      }
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
