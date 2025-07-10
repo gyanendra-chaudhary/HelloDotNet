@@ -1,0 +1,61 @@
+{
+  "normal": [
+    {
+      "question": "What is the capital of France?",
+      "correctAnswer": "Paris",
+      "type": "normal"
+    },
+    {
+      "question": "What is 2 + 2?",
+      "correctAnswer": "4",
+      "type": "normal"
+    },
+    {
+      "question": "What year did World War II end?",
+      "correctAnswer": "1945",
+      "type": "normal"
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "correctAnswer": "Jupiter",
+      "type": "normal"
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "correctAnswer": "Shakespeare",
+      "type": "normal"
+    }
+  ],
+  "multipleChoice": [
+    {
+      "question": "What is the capital of France?",
+      "options": ["London", "Berlin", "Paris", "Madrid"],
+      "correctAnswer": "Paris",
+      "type": "multipleChoice"
+    },
+    {
+      "question": "What is 2 + 2?",
+      "options": ["3", "4", "5", "6"],
+      "correctAnswer": "4",
+      "type": "multipleChoice"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "correctAnswer": "Mars",
+      "type": "multipleChoice"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Van Gogh", "Picasso", "Da Vinci", "Monet"],
+      "correctAnswer": "Da Vinci",
+      "type": "multipleChoice"
+    },
+    {
+      "question": "What is the smallest prime number?",
+      "options": ["0", "1", "2", "3"],
+      "correctAnswer": "2",
+      "type": "multipleChoice"
+    }
+  ]
+}
