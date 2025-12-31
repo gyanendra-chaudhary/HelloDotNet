@@ -15,6 +15,7 @@ public class AuthenticationMiddleware
     {
         if (!context.User.Identity.IsAuthenticated)
         {
+            
         }
         await _next(context);
     }
